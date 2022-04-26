@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu-grid{
+    display: grid;
+    grid-template-areas: "nav1 nav2 nav3"
+                         "head1 head2 head3"
+                         "navi1 navi2 navi3"
+                         "c1 c2 c3"
+                         "c4 c5 c6"
+                         "c7 c8 c9";
+    grid-template-rows: 4rem 9rem 4rem 15.7rem 5rem 4rem;
+    grid-template-columns: auto auto 40rem;
+}
+.a{grid-area: nav1; background: #4adf4a}
+.b{grid-area: nav2; background: #4adf4a}
+.c{grid-area: nav3; background: #4adf4a}
+
+.d{grid-area: head1; background: #dfe23e}
+.e{grid-area: head2; background: #dfe23e}
+.f{grid-area: head3; background: #dfe23e}
+
+.g{grid-area: navi1; background: #4eaee6}
+.h{grid-area: navi2; background: #4eaee6}
+.i{grid-area: navi3; background: #4eaee6}
+
+.c1{grid-area: c1; background: #f776e1}
+.c2{grid-area: c2; background: #2024e0}
+.c3{grid-area: c3; background: #68eef3}
+.c4{grid-area: c4; background: #f776e1}
+.c5{grid-area: c5; background: #e2742a}
+.c6{grid-area: c6; background: #e2742a}
+.c7{grid-area: c7; background: #f51515}
+.c8{grid-area: c8; background: #f51515}
+.c9{grid-area: c9; background: #f51515}
+
+
+.caja{
+    margin: 0.1em;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
